@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import chef from '../../assets/img/chef.png'
+import chef from '../../assets/img/don.png'
 import Button from '../../components/Button'
 import Container from '../../components/Container'
 import Page from '../../components/Page'

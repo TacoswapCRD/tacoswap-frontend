@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
-import chef from '../../assets/img/chef.png'
+import chef from '../../assets/img/don.png'
 
 import { useParams } from 'react-router-dom'
 import { useWallet } from 'use-wallet'
