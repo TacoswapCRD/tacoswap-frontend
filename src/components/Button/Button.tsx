@@ -42,23 +42,23 @@ const Button: React.FC<ButtonProps> = ({
   let fontSize: number
   switch (size) {
     case 'sm':
-      boxShadow = `4px 4px 8px ${color.grey[300]},
-        -8px -8px 16px ${color.grey[100]}FF;`
+      boxShadow = `1px 1px 2px ${color.grey[300]},
+        -2px -2px 4px ${color.grey[100]}FF;`
       buttonPadding = spacing[3]
       buttonSize = 36
       fontSize = 14
       break
     case 'lg':
-      boxShadow = `6px 6px 12px ${color.grey[300]},
-        -12px -12px 24px ${color.grey[100]}ff;`
+      boxShadow = `2px 2px 3px ${color.grey[300]},
+        -3px -3px 6px ${color.grey[100]}ff;`
       buttonPadding = spacing[4]
       buttonSize = 72
       fontSize = 16
       break
     case 'md':
     default:
-      boxShadow = `6px 6px 12px ${color.grey[300]},
-        -12px -12px 24px -2px ${color.grey[100]}ff;`
+      boxShadow = `2px 2px 3px ${color.grey[300]},
+        -3px -3px 6px ${color.grey[100]}ff;`
       buttonPadding = spacing[4]
       buttonSize = 56
       fontSize = 16
@@ -103,7 +103,7 @@ const StyledButton = styled.button<StyledButtonProps>`
   align-items: center;
   background-color: ${props => props.theme.color.grey[200]};
   border: 0;
-  border-radius: 12px;
+  border-radius: 9px;
   box-shadow: ${props => props.boxShadow};
   color: ${props => !props.disabled ? props.color : `${props.color}55`};
   cursor: pointer;

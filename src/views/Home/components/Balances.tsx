@@ -119,7 +119,7 @@ const Balances: React.FC = () => {
           />
         </CardContent>
         <Footnote>
-          New rewards per block
+          Reward per block
           <FootnoteValue>1,000 TACO</FootnoteValue>
         </Footnote>
       </Card>
@@ -129,6 +129,7 @@ const Balances: React.FC = () => {
 
 const Footnote = styled.div`
   font-size: 14px;
+  font-weight: bold;
   padding: 8px 20px;
   color: ${(props) => props.theme.color.grey[400]};
   border-top: solid 1px ${(props) => props.theme.color.grey[300]};
