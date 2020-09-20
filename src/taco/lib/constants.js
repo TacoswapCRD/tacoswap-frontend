@@ -1,4 +1,6 @@
+import React from 'react';
 import BigNumber from 'bignumber.js/bignumber'
+import taco from '../../assets/img/taco.png'
 
 export const SUBTRACT_GAS_LIMIT = 100000
 
@@ -35,11 +37,11 @@ export const addressMap = {
   SNX: '0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F',
   COMP: '0xc00e94Cb662C3520282E6f5717214004A7f26888',
   LEND: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03',
-  SUSHIYCRV: '0x2C7a51A357d5739C5C74Bf3C96816849d2c9F726',
+  TACOYCRV: '0x2C7a51A357d5739C5C74Bf3C96816849d2c9F726',
 }
 
 export const contractAddresses = {
-  sushi: {
+  Taco: {
     1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
   },
   masterChef: {
@@ -65,7 +67,7 @@ UNI-V2 LP Address on mainnet for reference
 9  BAND 0xf421c3f2e695c2d4c0765379ccace8ade4a480d9
 10 AMPL 0xc5be99a02c6857f9eac67bbce58df5572498f40c
 11 YFI  0x2fdbadf3c4d5a8666bc06645b8358ab803996e28
-12 SUSHI 0xce84867c3c02b05dc570d0135103d3fb9cc19433
+12 TACO 0xce84867c3c02b05dc570d0135103d3fb9cc19433
 */
 
 export const supportedPools = [
@@ -77,10 +79,10 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'Sushi Party!',
-    symbol: 'SUSHI-ETH UNI-V2 LP',
-    tokenSymbol: 'SUSHI',
-    icon: '🍣',
+    name: 'Taco Party!',
+    symbol: 'TACO-ETH UNI-V2 LP',
+    tokenSymbol: 'TACO',
+    icon: '🌮',
   },
   {
     pid: 0,
@@ -285,9 +287,9 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a',
     },
-    name: 'SUSHIv2 SUSHI',
-    symbol: 'SUSHIv2-ETH UNI-V2 LP',
-    tokenSymbol: 'SUSHIv2',
+    name: 'TACOv2 TACO',
+    symbol: 'TACOv2-ETH UNI-V2 LP',
+    tokenSymbol: 'TACOv2',
     icon: '🍠',
   },
   {

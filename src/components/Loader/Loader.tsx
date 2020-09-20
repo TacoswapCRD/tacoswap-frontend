@@ -1,5 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
+import taco from '../../assets/img/taco.png'
 
 import CardIcon from '../CardIcon'
 
@@ -11,7 +12,9 @@ const Loader: React.FC<LoaderProps> = ({ text }) => {
   return (
     <StyledLoader>
       <CardIcon>
-        <StyledSushi>🍣</StyledSushi>
+        <StyledTaco>
+          <img src={taco} alt="TACO" />
+        </StyledTaco>
       </CardIcon>
       {!!text && <StyledText>{text}</StyledText>}
     </StyledLoader>
@@ -34,10 +37,15 @@ const StyledLoader = styled.div`
   justify-content: center;
 `
 
-const StyledSushi = styled.div`
+const StyledTaco = styled.div`
   font-size: 32px;
   position: relative;
   animation: 1s ${spin} infinite;
+
+  img {
+    height: 32px;
+    width: 32px;
+  }
 `
 
 const StyledText = styled.div`
