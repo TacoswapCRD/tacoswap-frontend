@@ -15,6 +15,12 @@ const Nav: React.FC = () => {
         Staking
       </StyledLink>
       <StyledAbsoluteLink
+        href="https://pensive-lamport-93e9fa.netlify.app/"
+        target="_blank"
+      >
+        Exchange
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
         href="https://medium.com/Tacoswap/the-Tacoswap-project-c4049ea9941e"
         target="_blank"
       >
