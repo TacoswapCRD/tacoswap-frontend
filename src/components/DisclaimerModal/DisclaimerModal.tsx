@@ -44,12 +44,12 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({
     } else {
       return (
         <div>
-          <p>Attention TACO Uniswap LPs</p>
+          <p>Attention TACO Sushiswap LPs</p>
           <p>
-            The only Uniswap pool that is compatible with TACO is TACO/yCRV
+            The only Sushiswap pool that is compatible with TACO is TACO/yCRV
             (Curve yPool tokens)
           </p>
-          <p>Providing liquidity for other Uniswap pools is dangerous</p>
+          <p>Providing liquidity for other Sushiswap pools is dangerous</p>
           <p>You will LOSE your share of rebases</p>
         </div>
       )
