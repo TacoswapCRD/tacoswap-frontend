@@ -106,11 +106,11 @@ export const supportedPools = [
     pid: 2,
     lpAddresses: {
       1: '0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc',
-      3: '0x04278200E8a0Afd5c711C708Ad17267712232c0D',
+      3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
     },
     tokenAddresses: {
       1: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
-      3: '0x04278200E8a0Afd5c711C708Ad17267712232c0D',
+      3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
     },
     name: 'CRD',
     symbol: 'CRD Token',
@@ -121,13 +121,15 @@ export const supportedPools = [
     pid: 3,
     lpAddresses: {
       1: '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11',
+      3: '0x3836aa10e2a331be541864e8b15885d226a0b45b',
     },
     tokenAddresses: {
       1: '0x6b175474e89094c44da98b954eedeac495271d0f',
+      3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
     },
-    name: 'Donald DAI',
-    symbol: 'DAI-ETH Sushi SLP token',
-    tokenSymbol: 'DAI',
+    name: 'CRD-ETH',
+    symbol: 'CRD-ETH Sushi SLP token',
+    tokenSymbol: 'CRD',
     icon: '🦆',
   },
   {

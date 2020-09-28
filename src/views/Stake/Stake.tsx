@@ -54,7 +54,11 @@ const Farm: React.FC = () => {
           <PageHeader
             icon={<img src={chef} height="120" />}
             title="Stake Taco Tokens & Earn Fees"
-            subtitle="0.1% of all TacoSwap trades are rewarded to TACO stakers"
+            subtitle="You will earn a portion of the swaps fees based on the amount of xTaco held relative to the weight of the staking. 
+            You will also receive some Extra CRD .
+            xtaco can be minted by staking taco. 
+            To redeem Taco staked plus swap fees convert xTaco back to Taco
+            "
           />
           {/* <FarmCards /> */}
           <div>Coming Soon...</div>

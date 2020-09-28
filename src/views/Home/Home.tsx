@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={chef} height={120} />}
-        title="MasterChef is Ready"
-        subtitle="Stake Sushiswap LP tokens to claim your very own yummy TACO!"
+        // title="MasterChef is Ready"
+        subtitle="Stake Taco LP tokens to claim your very own Taco token"
       />
 
       <Container>
@@ -22,8 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: TACO-ETH Sushi SLP token token pool yields TWICE more token
-        rewards per block.
+        🏆<b>Pro Tip</b>: TACO-ETH SLP and CRD-ETH token pool yields 10x more token rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
       <div
@@ -33,6 +32,20 @@ const Home: React.FC = () => {
       >
         <Button text="🔪 See the Menu" to="/farms" variant="secondary" />
       </div>
+      <Container>
+        <Spacer />
+        <StyledInfo>
+          No ETH? Buy with credit card!
+        </StyledInfo>
+        <Spacer />
+        <iframe
+          style={{border: 0}}
+          src="https://trade-ui.coinify.com/widget?partnerId=159&primaryColor=blue&fontColor=gray&cryptoCurrencies=BTC,ETH,XLM"
+          width="100%"
+          height="450px"
+          allow="camera"
+        />
+      </Container>
     </Page>
   )
 }
