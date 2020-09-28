@@ -27,7 +27,7 @@ const Nav: React.FC = () => {
       <StyledNav>
         <StyledLink
           target="_blank"
-          href="www.crdtoken.org"
+          href="https://www.crdtoken.org"
         >
           Powered by CRD Token 
         </StyledLink>
