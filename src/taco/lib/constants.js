@@ -43,12 +43,15 @@ export const addressMap = {
 export const contractAddresses = {
   Taco: {
     1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+    3: '0x253E8Aa11D65f91af5b47e87efDAf369E1C1C413',
   },
   masterChef: {
     1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
+    3: '0xc9B52a983A2115C961700c1cB4fec4F0c43f37F9',
   },
   weth: {
     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    3: '0xc778417e063141139fce010982780140aa0cd5ab',
   },
 }
 
@@ -72,12 +75,14 @@ Sushi SLP token Address on mainnet for reference
 
 export const supportedPools = [
   {
-    pid: 12,
+    pid: 0,
     lpAddresses: {
       1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      3: '0xd35d3560b51273361a5feb0183619a4b53cb683b',
     },
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+      3: '0x253e8aa11d65f91af5b47e87efdaf369e1c1c413',
     },
     name: 'Taco Party!',
     symbol: 'TACO-ETH Sushi SLP token',
@@ -85,7 +90,7 @@ export const supportedPools = [
     icon: '🌮',
   },
   {
-    pid: 0,
+    pid: 1,
     lpAddresses: {
       1: '0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852',
     },
@@ -98,20 +103,22 @@ export const supportedPools = [
     icon: '🐢',
   },
   {
-    pid: 1,
+    pid: 2,
     lpAddresses: {
       1: '0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc',
+      3: '0x04278200E8a0Afd5c711C708Ad17267712232c0D',
     },
     tokenAddresses: {
       1: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+      3: '0x04278200E8a0Afd5c711C708Ad17267712232c0D',
     },
-    name: 'Circle Snail',
-    symbol: 'USDC-ETH Sushi SLP token',
-    tokenSymbol: 'USDC',
+    name: 'CRD',
+    symbol: 'CRD Token',
+    tokenSymbol: 'CRD',
     icon: '🐌',
   },
   {
-    pid: 2,
+    pid: 3,
     lpAddresses: {
       1: '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11',
     },
@@ -124,7 +131,7 @@ export const supportedPools = [
     icon: '🦆',
   },
   {
-    pid: 3,
+    pid: 4,
     lpAddresses: {
       1: '0xf80758ab42c3b07da84053fd88804bcb6baa4b5c',
     },
@@ -137,7 +144,7 @@ export const supportedPools = [
     icon: '🦍',
   },
   {
-    pid: 7,
+    pid: 5,
     lpAddresses: {
       1: '0x88d97d199b9ed37c29d846d00d443de980832a22',
     },
@@ -150,7 +157,7 @@ export const supportedPools = [
     icon: '🦑',
   },
   {
-    pid: 9,
+    pid: 6,
     lpAddresses: {
       1: '0xf421c3f2e695c2d4c0765379ccace8ade4a480d9',
     },
@@ -163,7 +170,7 @@ export const supportedPools = [
     icon: '🦖',
   },
   {
-    pid: 8,
+    pid: 7,
     lpAddresses: {
       1: '0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974',
     },
@@ -176,7 +183,7 @@ export const supportedPools = [
     icon: '🐸',
   },
   {
-    pid: 10,
+    pid: 8,
     lpAddresses: {
       1: '0xc5be99a02c6857f9eac67bbce58df5572498f40c',
     },
@@ -189,7 +196,7 @@ export const supportedPools = [
     icon: '🐥',
   },
   {
-    pid: 4,
+    pid: 9,
     lpAddresses: {
       1: '0xcffdded873554f362ac02f8fb1f02e5ada10516f',
     },
@@ -202,7 +209,7 @@ export const supportedPools = [
     icon: '🍄',
   },
   {
-    pid: 5,
+    pid: 10,
     lpAddresses: {
       1: '0xab3f9bf1d81ddb224a2014e98b238638824bcf20',
     },
@@ -215,7 +222,7 @@ export const supportedPools = [
     icon: '🐗',
   },
   {
-    pid: 6,
+    pid: 11,
     lpAddresses: {
       1: '0x43ae24960e5534731fc831386c07755a2dc33d47',
     },
@@ -228,7 +235,7 @@ export const supportedPools = [
     icon: '🐍',
   },
   {
-    pid: 11,
+    pid: 12,
     lpAddresses: {
       1: '0x2fdbadf3c4d5a8666bc06645b8358ab803996e28',
     },

@@ -71,9 +71,39 @@ const PendingRewards: React.FC = () => {
 
 const Balances: React.FC = () => {
   const [totalSupply, setTotalSupply] = useState<BigNumber>()
+  const [price, setPrice] = useState<BigNumber>(new BigNumber(0))
   const Taco = useTaco()
   const TacoBalance = useTokenBalance(getTacoAddress(Taco))
   const { account, ethereum }: { account: any; ethereum: any } = useWallet()
+
+  const [farms] = useFarms()
+  const stakedValue = useAllStakedValue()
+  
+
+  const sushiIndex = farms.findIndex(
+    ({ lpToken }) => lpToken === 'COMB-ETH UNI-V2 LP',
+  )
+
+  const totalLocked = stakedValue.reduce((t, n) => t.plus(n.totalWethValue), new BigNumber(0)).multipliedBy(400);
+  
+  const priceT =
+    sushiIndex >= 0 && stakedValue[sushiIndex]
+      ? stakedValue[sushiIndex].tokenPriceInWeth
+      : new BigNumber(0);
+
+  // useEffect(() => {
+  //   setPrice(priceT);
+  // }, [])
+
+  useEffect(() => {
+    async function fetchTotalSupply() {
+      const supply = await getTacoSupply(Taco)
+      setTotalSupply(supply)
+    }
+    if (Taco) {
+      fetchTotalSupply()
+    }
+  }, [Taco, setTotalSupply])
 
   useEffect(() => {
     async function fetchTotalSupply() {

@@ -25,7 +25,9 @@ export class Contracts {
     this.masterChef = new this.web3.eth.Contract(MasterChefAbi)
     this.weth = new this.web3.eth.Contract(WETHAbi)
 
-    this.pools = supportedPools.map((pool) =>
+    this.pools = supportedPools.filter(({ lpAddresses }) => {
+      return !!lpAddresses[networkId];
+    }).map((pool) =>
       Object.assign(pool, {
         lpAddress: pool.lpAddresses[networkId],
         tokenAddress: pool.tokenAddresses[networkId],
