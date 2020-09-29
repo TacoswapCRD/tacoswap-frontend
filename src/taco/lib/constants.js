@@ -105,6 +105,19 @@ export const supportedPools = [
     icon: '🐢',
   },
   {
+    pid: 7,
+    lpAddresses: {
+      1: '0xD34361F7830FDf2Ca6D7023a32A776Db39762CE9',
+    },
+    tokenAddresses: {
+      1: '0xD34361F7830FDf2Ca6D7023a32A776Db39762CE9',
+    },
+    name: 'TACO-ETH',
+    symbol: 'TACO UNI V2 LP token',
+    tokenSymbol: 'TACO',
+    icon: '🌮',
+  },
+  {
     pid: 2,
     lpAddresses: {
       1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
@@ -168,126 +181,5 @@ export const supportedPools = [
     symbol: 'YEARN-ETH Sushi SLP token',
     tokenSymbol: 'YEARN',
     icon: '🦖',
-  },
-  {
-    pid: 7,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'Toadie Marine',
-    symbol: 'LINK-ETH Sushi SLP token',
-    tokenSymbol: 'LINK',
-    icon: '🐸',
-  },
-  {
-    pid: 8,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'Ample Chicks',
-    symbol: 'AMPL-ETH Sushi SLP token',
-    tokenSymbol: 'AMPL',
-    icon: '🐥',
-  },
-  {
-    pid: 9,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'Compound Truffle',
-    symbol: 'COMP-ETH Sushi SLP token',
-    tokenSymbol: 'COMP',
-    icon: '🍄',
-  },
-  {
-    pid: 10,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'Aave Boar',
-    symbol: 'LEND-ETH Sushi SLP token',
-    tokenSymbol: 'LEND',
-    icon: '🐗',
-  },
-  {
-    pid: 11,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'Synthetic Snake',
-    symbol: 'SNX-ETH Sushi SLP token',
-    tokenSymbol: 'SNX',
-    icon: '🐍',
-  },
-  {
-    pid: 12,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'YFI Whale',
-    symbol: 'YFI-ETH Sushi SLP token',
-    tokenSymbol: 'YFI',
-    icon: '🐋',
-  },
-  {
-    pid: 13,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'REN Rhino',
-    symbol: 'REN-ETH Sushi SLP token',
-    tokenSymbol: 'REN',
-    icon: '🦏',
-  },
-  {
-    pid: 14,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'BASED Bull',
-    symbol: 'BASE-sUSD Sushi SLP token',
-    tokenSymbol: 'BASED',
-    icon: '🐂',
-  },
-  {
-    pid: 15,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'SRM Shark',
-    symbol: 'SRM-ETH Sushi SLP token',
-    tokenSymbol: 'SRM',
-    icon: '🦈',
-  },
-  {
-    pid: 16,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'TACOv2 TACO',
-    symbol: 'TACOv2-ETH Sushi SLP token',
-    tokenSymbol: 'TACOv2',
-    icon: '🍠',
-  },
-  {
-    pid: 17,
-    lpAddresses: {
-    },
-    tokenAddresses: {
-    },
-    name: 'CRV Crocodile',
-    symbol: 'CRV-ETH Sushi SLP token',
-    tokenSymbol: 'CRV',
-    icon: '🐊',
   },
 ]
