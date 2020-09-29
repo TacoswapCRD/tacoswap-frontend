@@ -107,58 +107,66 @@ export const supportedPools = [
   {
     pid: 2,
     lpAddresses: {
+      1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     },
     tokenAddresses: {
+      1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     },
-    name: 'Tether Turtle',
-    symbol: 'USDT-ETH Sushi SLP token',
-    tokenSymbol: 'USDT',
+    name: 'Wrapped Ether',
+    symbol: 'WETH token',
+    tokenSymbol: 'WETH',
     icon: '🐢',
   },
   {
     pid: 3,
     lpAddresses: {
-      3: '0x3836aa10e2a331be541864e8b15885d226a0b45b',
+      1: '0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f',
     },
     tokenAddresses: {
-      3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
+      1: '0x6b175474e89094c44da98b954eedeac495271d0f',
     },
-    name: 'CRD-ETH',
-    symbol: 'CRD-ETH Sushi SLP token',
-    tokenSymbol: 'CRD',
+    name: 'Dail ETH Sushi',
+    symbol: 'DAI-ETH Sushi SLP token',
+    tokenSymbol: 'DAI',
     icon: '🦆',
   },
   {
     pid: 4,
     lpAddresses: {
+      1: '0x795065dCc9f64b5614C407a6EFDC400DA6221FB0',
     },
     tokenAddresses: {
+      1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'Spartan Dollar',
-    symbol: 'SUSD-ETH Sushi SLP token',
-    tokenSymbol: 'SUSD',
+    name: 'Sushi Toen ETH',
+    symbol: 'SUSHI-ETH Sushi SLP token',
+    tokenSymbol: 'SUSHI',
     icon: '🦍',
   },
   {
     pid: 5,
     lpAddresses: {
+      1: '0x06da0fd433c1a5d7a4faa01111c044910a184553',
     },
     tokenAddresses: {
+      1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'Umami Squid',
-    symbol: 'UMA-ETH Sushi SLP token',
-    tokenSymbol: 'UMA',
+    name: 'USDT-ETH SLP',
+    symbol: 'USDT-ETH Sushi SLP token',
+    tokenSymbol: 'USDT',
     icon: '🦑',
   },
   {
     pid: 6,
     lpAddresses: {
+      1: '0x088ee5007C98a9677165D78dD2109AE4a3D04d0C',
     },
     tokenAddresses: {
+      1: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
     },
-    name: 'Band-osaurus',
-    symbol: 'BAND-ETH Sushi SLP token',
-    tokenSymbol: 'BAND',
+    name: 'YEARN-ETH',
+    symbol: 'YEARN-ETH Sushi SLP token',
+    tokenSymbol: 'YEARN',
     icon: '🦖',
   },
   {
