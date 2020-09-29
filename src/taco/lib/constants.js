@@ -42,11 +42,11 @@ export const addressMap = {
 
 export const contractAddresses = {
   Taco: {
-    1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+    1: '0x41C028a4C1F461eBFC3af91619b240004ebAD216',
     3: '0x253E8Aa11D65f91af5b47e87efDAf369E1C1C413',
   },
   masterChef: {
-    1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
+    1: '0x7F7710e0c7C5C0FF043963dd22C3988e8bDb7AcC',
     3: '0xc9B52a983A2115C961700c1cB4fec4F0c43f37F9',
   },
   weth: {
@@ -77,39 +77,11 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
-      3: '0xd35d3560b51273361a5feb0183619a4b53cb683b',
-    },
-    tokenAddresses: {
-      1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
-      3: '0x253e8aa11d65f91af5b47e87efdaf369e1c1c413',
-    },
-    name: 'Taco Party!',
-    symbol: 'TACO-ETH Sushi SLP token',
-    tokenSymbol: 'TACO',
-    icon: '🌮',
-  },
-  {
-    pid: 1,
-    lpAddresses: {
-      1: '0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852',
-    },
-    tokenAddresses: {
-      1: '0xdac17f958d2ee523a2206206994597c13d831ec7',
-    },
-    name: 'Tether Turtle',
-    symbol: 'USDT-ETH Sushi SLP token',
-    tokenSymbol: 'USDT',
-    icon: '🐢',
-  },
-  {
-    pid: 2,
-    lpAddresses: {
-      1: '0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc',
+      1: '0xcAaa93712BDAc37f736C323C93D4D5fDEFCc31CC',
       3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
     },
     tokenAddresses: {
-      1: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+      1: '0xcAaa93712BDAc37f736C323C93D4D5fDEFCc31CC',
       3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
     },
     name: 'CRD',
@@ -118,13 +90,37 @@ export const supportedPools = [
     icon: '🐌',
   },
   {
+    pid: 1,
+    lpAddresses: {
+      1: '0x526914CE1611849b9e1133Ff8F8b03A8fAa295Cb',
+      3: '0xd35d3560b51273361a5feb0183619a4b53cb683b',
+    },
+    tokenAddresses: {
+      1: '0xcaaa93712bdac37f736c323c93d4d5fdefcc31cc',
+      3: '0x253e8aa11d65f91af5b47e87efdaf369e1c1c413',
+    },
+    name: 'CRD-ETH',
+    symbol: 'CRD-ETH UNI V2 LP token',
+    tokenSymbol: 'TACO',
+    icon: '🐢',
+  },
+  {
+    pid: 2,
+    lpAddresses: {
+    },
+    tokenAddresses: {
+    },
+    name: 'Tether Turtle',
+    symbol: 'USDT-ETH Sushi SLP token',
+    tokenSymbol: 'USDT',
+    icon: '🐢',
+  },
+  {
     pid: 3,
     lpAddresses: {
-      1: '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11',
       3: '0x3836aa10e2a331be541864e8b15885d226a0b45b',
     },
     tokenAddresses: {
-      1: '0x6b175474e89094c44da98b954eedeac495271d0f',
       3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
     },
     name: 'CRD-ETH',
@@ -135,10 +131,8 @@ export const supportedPools = [
   {
     pid: 4,
     lpAddresses: {
-      1: '0xf80758ab42c3b07da84053fd88804bcb6baa4b5c',
     },
     tokenAddresses: {
-      1: '0x57ab1ec28d129707052df4df418d58a2d46d5f51',
     },
     name: 'Spartan Dollar',
     symbol: 'SUSD-ETH Sushi SLP token',
@@ -148,10 +142,8 @@ export const supportedPools = [
   {
     pid: 5,
     lpAddresses: {
-      1: '0x88d97d199b9ed37c29d846d00d443de980832a22',
     },
     tokenAddresses: {
-      1: '0x04fa0d235c4abf4bcf4787af4cf447de572ef828',
     },
     name: 'Umami Squid',
     symbol: 'UMA-ETH Sushi SLP token',
@@ -161,10 +153,8 @@ export const supportedPools = [
   {
     pid: 6,
     lpAddresses: {
-      1: '0xf421c3f2e695c2d4c0765379ccace8ade4a480d9',
     },
     tokenAddresses: {
-      1: '0xba11d00c5f74255f56a5e366f4f77f5a186d7f55',
     },
     name: 'Band-osaurus',
     symbol: 'BAND-ETH Sushi SLP token',
@@ -174,10 +164,8 @@ export const supportedPools = [
   {
     pid: 7,
     lpAddresses: {
-      1: '0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974',
     },
     tokenAddresses: {
-      1: '0x514910771af9ca656af840dff83e8264ecf986ca',
     },
     name: 'Toadie Marine',
     symbol: 'LINK-ETH Sushi SLP token',
@@ -187,10 +175,8 @@ export const supportedPools = [
   {
     pid: 8,
     lpAddresses: {
-      1: '0xc5be99a02c6857f9eac67bbce58df5572498f40c',
     },
     tokenAddresses: {
-      1: '0xd46ba6d942050d489dbd938a2c909a5d5039a161',
     },
     name: 'Ample Chicks',
     symbol: 'AMPL-ETH Sushi SLP token',
@@ -200,10 +186,8 @@ export const supportedPools = [
   {
     pid: 9,
     lpAddresses: {
-      1: '0xcffdded873554f362ac02f8fb1f02e5ada10516f',
     },
     tokenAddresses: {
-      1: '0xc00e94cb662c3520282e6f5717214004a7f26888',
     },
     name: 'Compound Truffle',
     symbol: 'COMP-ETH Sushi SLP token',
@@ -213,10 +197,8 @@ export const supportedPools = [
   {
     pid: 10,
     lpAddresses: {
-      1: '0xab3f9bf1d81ddb224a2014e98b238638824bcf20',
     },
     tokenAddresses: {
-      1: '0x80fb784b7ed66730e8b1dbd9820afd29931aab03',
     },
     name: 'Aave Boar',
     symbol: 'LEND-ETH Sushi SLP token',
@@ -226,10 +208,8 @@ export const supportedPools = [
   {
     pid: 11,
     lpAddresses: {
-      1: '0x43ae24960e5534731fc831386c07755a2dc33d47',
     },
     tokenAddresses: {
-      1: '0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f',
     },
     name: 'Synthetic Snake',
     symbol: 'SNX-ETH Sushi SLP token',
@@ -239,10 +219,8 @@ export const supportedPools = [
   {
     pid: 12,
     lpAddresses: {
-      1: '0x2fdbadf3c4d5a8666bc06645b8358ab803996e28',
     },
     tokenAddresses: {
-      1: '0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e',
     },
     name: 'YFI Whale',
     symbol: 'YFI-ETH Sushi SLP token',
@@ -252,10 +230,8 @@ export const supportedPools = [
   {
     pid: 13,
     lpAddresses: {
-      1: '0x8bd1661da98ebdd3bd080f0be4e6d9be8ce9858c',
     },
     tokenAddresses: {
-      1: '0x408e41876cccdc0f92210600ef50372656052a38',
     },
     name: 'REN Rhino',
     symbol: 'REN-ETH Sushi SLP token',
@@ -265,10 +241,8 @@ export const supportedPools = [
   {
     pid: 14,
     lpAddresses: {
-      1: '0xaad22f5543fcdaa694b68f94be177b561836ae57',
     },
     tokenAddresses: {
-      1: '0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5',
     },
     name: 'BASED Bull',
     symbol: 'BASE-sUSD Sushi SLP token',
@@ -278,10 +252,8 @@ export const supportedPools = [
   {
     pid: 15,
     lpAddresses: {
-      1: '0xcc3d1ecef1f9fd25599dbea2755019dc09db3c54',
     },
     tokenAddresses: {
-      1: '0x476c5E26a75bd202a9683ffD34359C0CC15be0fF',
     },
     name: 'SRM Shark',
     symbol: 'SRM-ETH Sushi SLP token',
@@ -291,10 +263,8 @@ export const supportedPools = [
   {
     pid: 16,
     lpAddresses: {
-      1: '0xa5904961f61bae7c4dd8478077556c91bf291cfd',
     },
     tokenAddresses: {
-      1: '0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a',
     },
     name: 'TACOv2 TACO',
     symbol: 'TACOv2-ETH Sushi SLP token',
@@ -304,10 +274,8 @@ export const supportedPools = [
   {
     pid: 17,
     lpAddresses: {
-      1: '0x3da1313ae46132a397d90d95b1424a9a7e3e0fce',
     },
     tokenAddresses: {
-      1: '0xD533a949740bb3306d119CC777fa900bA034cd52',
     },
     name: 'CRV Crocodile',
     symbol: 'CRV-ETH Sushi SLP token',

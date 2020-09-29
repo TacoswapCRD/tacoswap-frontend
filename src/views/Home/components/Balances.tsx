@@ -150,7 +150,7 @@ const Balances: React.FC = () => {
         </CardContent>
         <Footnote>
           Reward per block
-          <FootnoteValue>1,000 TACO</FootnoteValue>
+          <FootnoteValue>400 TACO</FootnoteValue>
         </Footnote>
       </Card>
     </StyledWrapper>
