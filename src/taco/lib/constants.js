@@ -87,7 +87,7 @@ export const supportedPools = [
     name: 'CRD Hodlers',
     symbol: 'CRD Token',
     tokenSymbol: 'CRD',
-    icon: '🐌',
+    icon: '🥇',
   },
   {
     pid: 1,
@@ -102,7 +102,7 @@ export const supportedPools = [
     name: 'CRD-ETH UniSwap',
     symbol: 'CRD-ETH UNI V2 LP token',
     tokenSymbol: 'TACOS',
-    icon: '🐢',
+    icon: '💧',
   },
   {
     pid: 7,
@@ -112,7 +112,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xD34361F7830FDf2Ca6D7023a32A776Db39762CE9',
     },
-    name: 'TACO-ETH UniSwap',
+    name: 'TACOS-ETH UniSwap',
     symbol: 'TACO UNI V2 LP token',
     tokenSymbol: 'TACOS',
     icon: '🌮',
@@ -128,7 +128,7 @@ export const supportedPools = [
     name: 'Closed Pool',
     symbol: 'ETH',
     tokenSymbol: 'ETH',
-    icon: '🐢',
+    icon: '🔐',
   },
   {
     pid: 3,
@@ -154,7 +154,7 @@ export const supportedPools = [
     name: 'Sushi-ETH Sushi',
     symbol: 'SUSHI-ETH Sushi SLP token',
     tokenSymbol: 'SUSHI',
-    icon: '🦍',
+    icon: '🍣',
   },
   {
     pid: 5,
