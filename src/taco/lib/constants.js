@@ -84,7 +84,7 @@ export const supportedPools = [
       1: '0xcAaa93712BDAc37f736C323C93D4D5fDEFCc31CC',
       3: '0xB16789a451F97C1A37EE5c7bfbA86B0ae1cff0e7',
     },
-    name: 'CRD',
+    name: 'CRD Hodlers',
     symbol: 'CRD Token',
     tokenSymbol: 'CRD',
     icon: '🐌',
@@ -99,9 +99,9 @@ export const supportedPools = [
       1: '0xcaaa93712bdac37f736c323c93d4d5fdefcc31cc',
       3: '0x253e8aa11d65f91af5b47e87efdaf369e1c1c413',
     },
-    name: 'CRD-ETH',
+    name: 'CRD-ETH UniSwap',
     symbol: 'CRD-ETH UNI V2 LP token',
-    tokenSymbol: 'TACO',
+    tokenSymbol: 'TACOS',
     icon: '🐢',
   },
   {
@@ -112,9 +112,9 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xD34361F7830FDf2Ca6D7023a32A776Db39762CE9',
     },
-    name: 'TACO-ETH',
+    name: 'TACO-ETH UniSwap',
     symbol: 'TACO UNI V2 LP token',
-    tokenSymbol: 'TACO',
+    tokenSymbol: 'TACOS',
     icon: '🌮',
   },
   {
@@ -125,9 +125,9 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     },
-    name: 'Wrapped Ether',
-    symbol: 'WETH token',
-    tokenSymbol: 'WETH',
+    name: 'Ether Madness',
+    symbol: 'ETH',
+    tokenSymbol: 'ETH',
     icon: '🐢',
   },
   {
@@ -138,7 +138,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b175474e89094c44da98b954eedeac495271d0f',
     },
-    name: 'Dail ETH Sushi',
+    name: 'Dai-ETH SushiSwap',
     symbol: 'DAI-ETH Sushi SLP token',
     tokenSymbol: 'DAI',
     icon: '🦆',
@@ -151,7 +151,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'Sushi Toen ETH',
+    name: 'Sushi-ETH SushiSwap',
     symbol: 'SUSHI-ETH Sushi SLP token',
     tokenSymbol: 'SUSHI',
     icon: '🦍',
@@ -164,7 +164,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'USDT-ETH SLP',
+    name: 'USDT-ETH SushiSwap',
     symbol: 'USDT-ETH Sushi SLP token',
     tokenSymbol: 'USDT',
     icon: '🦑',
@@ -177,7 +177,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
     },
-    name: 'YEARN-ETH',
+    name: 'YEARN-ETH SushiSwap',
     symbol: 'YEARN-ETH Sushi SLP token',
     tokenSymbol: 'YEARN',
     icon: '🦖',
