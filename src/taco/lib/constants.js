@@ -125,7 +125,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     },
-    name: 'Ether Madness',
+    name: 'Closed Pool',
     symbol: 'ETH',
     tokenSymbol: 'ETH',
     icon: '🐢',
