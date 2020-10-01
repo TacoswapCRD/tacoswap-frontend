@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={chef} height={120} />}
         // title="MasterChef is Ready"
-        subtitle="Stake Taco LP tokens to claim your very own Taco token"
+        subtitle="Stake Tacos LP tokens to claim your very own Tacos token"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: TACO-ETH SLP and CRD-ETH token pool yields 10x more token rewards per block.
+        🏆<b>Pro Tip</b>: Tacos-ETH and CRD-ETH, Uni V2 Liquidity Token yields 4x more token rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
       <div
