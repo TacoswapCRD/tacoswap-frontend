@@ -138,7 +138,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b175474e89094c44da98b954eedeac495271d0f',
     },
-    name: 'Dai-ETH SushiSwap',
+    name: 'Dai-ETH Sushi',
     symbol: 'DAI-ETH Sushi SLP token',
     tokenSymbol: 'DAI',
     icon: '🦆',
@@ -151,7 +151,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'Sushi-ETH SushiSwap',
+    name: 'Sushi-ETH Sushi',
     symbol: 'SUSHI-ETH Sushi SLP token',
     tokenSymbol: 'SUSHI',
     icon: '🦍',
@@ -164,7 +164,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
     },
-    name: 'USDT-ETH SushiSwap',
+    name: 'USDT-ETH Sushi',
     symbol: 'USDT-ETH Sushi SLP token',
     tokenSymbol: 'USDT',
     icon: '🦑',
@@ -177,7 +177,7 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
     },
-    name: 'YEARN-ETH SushiSwap',
+    name: 'YEARN-ETH Sushi',
     symbol: 'YEARN-ETH Sushi SLP token',
     tokenSymbol: 'YEARN',
     icon: '🦖',
