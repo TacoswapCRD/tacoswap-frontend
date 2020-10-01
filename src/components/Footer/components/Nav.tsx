@@ -13,7 +13,7 @@ const Nav: React.FC = () => {
         </StyledLink>
         <StyledLink
           target="_blank"
-          href="https://uniswap.info/pair/0x526914ce1611849b9e1133ff8f8b03a8faa295cb"
+          href="https://app.uniswap.org/#/add/0x41c028a4c1f461ebfc3af91619b240004ebad216/ETH"
         >
           Uniswap TACO-ETH
         </StyledLink>
