@@ -7,15 +7,15 @@ const Nav: React.FC = () => {
       <StyledNav>
         <StyledLink
           target="_blank"
-          href="https://etherscan.io/address/0xc2edad668740f1aa35e4d8f227fb8e17dca888cd#code"
+          href="https://etherscan.io/address/0x7f7710e0c7c5c0ff043963dd22c3988e8bdb7acc"
         >
-          MasterChef Contract
+          TacosChef Contract
         </StyledLink>
         <StyledLink
           target="_blank"
-          href="https://sushiswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
+          href="https://uniswap.info/pair/0x526914ce1611849b9e1133ff8f8b03a8faa295cb"
         >
-          Sushiswap TACO-ETH
+          Uniswap TACO-ETH
         </StyledLink>
         <StyledLink target="_blank" href="https://github.com/TacoswapCRD">
           Github
