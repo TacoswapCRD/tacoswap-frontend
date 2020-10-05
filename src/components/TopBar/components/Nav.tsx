@@ -21,7 +21,7 @@ const Nav: React.FC = () => {
         Exchange
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://medium.com/Tacoswap/the-Tacoswap-project-c4049ea9941e"
+        href="https://medium.com/@tacoswaps/1b2af61d530f"
         target="_blank"
       >
         About
