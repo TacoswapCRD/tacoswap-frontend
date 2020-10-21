@@ -118,16 +118,16 @@ export const supportedPools = [
     icon: '🌮',
   },
   {
-    pid: 2,
+    pid: 8,
     lpAddresses: {
-      1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+      1: '0xD3f85d18206829f917929BbBF738C1e0CE9AF7fC',
     },
     tokenAddresses: {
-      1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+      1: '0xcAaa93712BDAc37f736C323C93D4D5fDEFCc31CC',
     },
-    name: 'Closed Pool',
-    symbol: 'ETH',
-    tokenSymbol: 'ETH',
+    name: 'Community Manager',
+    symbol: 'ETH CRD',
+    tokenSymbol: 'Tacos',
     icon: '🔐',
   },
   {
