@@ -172,6 +172,19 @@ export const supportedPools = [
   {
     pid: 6,
     lpAddresses: {
+      1: '0x088ee5007C98a9677165D78dD2109AE4a3D04d0C',
+    },
+    tokenAddresses: {
+      1: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
+    },
+    name: 'Closed YEARN-ETH Sushi',
+    symbol: 'YEARN-ETH Sushi SLP token',
+    tokenSymbol: 'YEARN',
+    icon: '🦖',
+  },
+  {
+    pid: 2,
+    lpAddresses: {
       1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     },
     tokenAddresses: {
