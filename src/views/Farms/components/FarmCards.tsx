@@ -53,9 +53,6 @@ const FarmCards: React.FC = () => {
           : new BigNumber(100),
       }
 
-      console.log(stakedValue[i] ? stakedValue[i].totalWethValue.toNumber() : '0', farmWithStakedValue.pid, farmWithStakedValue.apy.toNumber());
-      
-      
       const newFarmRows = [...farmRows]
       if (newFarmRows[newFarmRows.length - 1].length === 3) {
         newFarmRows.push([farmWithStakedValue])
@@ -162,8 +159,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
                   ? `${farm.apy
                       .times(new BigNumber(100))
                       .toNumber()
-                      .toLocaleString('en-US')
-                      .slice(0, -1)}%`
+                      .toLocaleString('en-US')}%`
                   : 'Loading ...'}
               </span>
               {/* <span>
