@@ -38,10 +38,12 @@ const useAllStakedValue = () => {
           pid,
           lpContract,
           tokenContract,
+          price,
         }: {
           pid: number
           lpContract: Contract
           tokenContract: Contract
+          price?: Number,
         }) =>
           getTotalLPWethValue(
             masterChefContract,
@@ -49,6 +51,7 @@ const useAllStakedValue = () => {
             lpContract,
             tokenContract,
             pid,
+            price,
           ),
       ),
     )

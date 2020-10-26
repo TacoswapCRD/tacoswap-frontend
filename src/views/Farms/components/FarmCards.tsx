@@ -36,8 +36,8 @@ const FarmCards: React.FC = () => {
       ? stakedValue[TacoIndex].tokenPriceInWeth
       : new BigNumber(0)
 
-  const BLOCKS_PER_YEAR = new BigNumber(2336000)
-  const TACO_PER_BLOCK = new BigNumber(1000)
+  const BLOCKS_PER_YEAR = new BigNumber(2372500)
+  const TACO_PER_BLOCK = new BigNumber(400)
 
   const rows = farms.reduce<FarmWithStakedValue[][]>(
     (farmRows, farm, i) => {
@@ -50,8 +50,12 @@ const FarmCards: React.FC = () => {
               .times(BLOCKS_PER_YEAR)
               .times(stakedValue[i].poolWeight)
               .div(stakedValue[i].totalWethValue)
-          : null,
+          : new BigNumber(100),
       }
+
+      console.log(stakedValue[i] ? stakedValue[i].totalWethValue.toNumber() : '0', farmWithStakedValue.pid, farmWithStakedValue.apy.toNumber());
+      
+      
       const newFarmRows = [...farmRows]
       if (newFarmRows[newFarmRows.length - 1].length === 3) {
         newFarmRows.push([farmWithStakedValue])

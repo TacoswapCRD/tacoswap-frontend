@@ -43,6 +43,7 @@ export const getFarms = (Taco) => {
           tokenContract,
           lpAddress,
           lpContract,
+          price,
         }) => ({
           pid,
           id: symbol,
@@ -56,6 +57,7 @@ export const getFarms = (Taco) => {
           earnToken: 'Taco',
           earnTokenAddress: Taco.contracts.Taco.options.address,
           icon,
+          price,
         }),
       )
     : []
@@ -79,6 +81,7 @@ export const getTotalLPWethValue = async (
   lpContract,
   tokenContract,
   pid,
+  price,
 ) => {
   // Get balance of the token address
   const tokenAmountWholeLP = await tokenContract.methods
@@ -97,7 +100,7 @@ export const getTotalLPWethValue = async (
     .call()
   // Return p1 * w1 * 2
   const portionLp = new BigNumber(balance).div(new BigNumber(totalSupply))
-  const lpWethWorth = new BigNumber(lpContractWeth)
+  const lpWethWorth = price ? new BigNumber(balance).times(new BigNumber(price)) : new BigNumber(lpContractWeth)
   const totalLpWethValue = portionLp.times(lpWethWorth).times(new BigNumber(2))
   // Calculate
   const tokenAmount = new BigNumber(tokenAmountWholeLP)
@@ -106,12 +109,12 @@ export const getTotalLPWethValue = async (
 
   const wethAmount = new BigNumber(lpContractWeth)
     .times(portionLp)
-    .div(new BigNumber(10).pow(18))
+    .div(new BigNumber(10).pow(18));
   return {
     tokenAmount,
     wethAmount,
     totalWethValue: totalLpWethValue.div(new BigNumber(10).pow(18)),
-    tokenPriceInWeth: wethAmount.div(tokenAmount),
+    tokenPriceInWeth: price || wethAmount.div(tokenAmount),
     poolWeight: await getPoolWeight(masterChefContract, pid),
   }
 }

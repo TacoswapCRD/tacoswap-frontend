@@ -87,6 +87,7 @@ export const supportedPools = [
     name: 'CRD Hodlers',
     symbol: 'CRD Token',
     tokenSymbol: 'CRD',
+    price: 0.0001965,
     icon: '🥇',
   },
   {
@@ -101,7 +102,7 @@ export const supportedPools = [
     },
     name: 'CRD-ETH UniSwap',
     symbol: 'CRD-ETH UNI V2 LP token',
-    tokenSymbol: 'TACOS',
+    tokenSymbol: 'TACO',
     icon: '💧',
   },
   {
@@ -112,9 +113,9 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0xD34361F7830FDf2Ca6D7023a32A776Db39762CE9',
     },
-    name: 'TACOS-ETH UniSwap',
+    name: 'TACO-ETH UniSwap',
     symbol: 'TACO UNI V2 LP token',
-    tokenSymbol: 'TACOS',
+    tokenSymbol: 'TACO',
     icon: '🌮',
   },
   {
