@@ -14,12 +14,12 @@ export class Taco {
       if (provider.includes('wss')) {
         realProvider = new Web3.providers.WebsocketProvider(
           provider,
-          options.ethereumNodeTimeout || 10000,
+          options.ethereumNodeTimeout || 60000,
         )
       } else {
         realProvider = new Web3.providers.HttpProvider(
           provider,
-          options.ethereumNodeTimeout || 10000,
+          options.ethereumNodeTimeout || 60000,
         )
       }
     } else {

@@ -22,15 +22,15 @@ const TacoProvider: React.FC = ({ children }) => {
   const { ethereum }: { ethereum: any } = useWallet()
   const [taco, setTaco] = useState<any>()
 
-  // @ts-ignore
-  window.Taco = Taco
-  // @ts-ignore
-  window.eth = ethereum
+  // // @ts-ignore
+  // window.Taco = Taco
+  // // @ts-ignore
+  // window.eth = ethereum
 
   useEffect(() => {
     if (ethereum) {
       const chainId = Number(ethereum.chainId)
-      
+
       const tacoLib = new Taco(ethereum, chainId, false, {
         defaultAccount: ethereum.selectedAddress,
         defaultConfirmations: 1,

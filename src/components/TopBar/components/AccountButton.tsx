@@ -6,7 +6,9 @@ import Button from '../../Button'
 import WalletProviderModal from '../../WalletProviderModal'
 import AccountModal from './AccountModal'
 
-interface AccountButtonProps {}
+interface AccountButtonProps {
+  onClick: Function
+}
 
 const AccountButton: React.FC<AccountButtonProps> = (props) => {
   const [onPresentAccountModal] = useModal(<AccountModal />)
@@ -18,6 +20,7 @@ const AccountButton: React.FC<AccountButtonProps> = (props) => {
   const { account } = useWallet()
 
   const handleUnlockClick = useCallback(() => {
+    props.onClick()
     onPresentWalletProviderModal()
   }, [onPresentWalletProviderModal])
 
