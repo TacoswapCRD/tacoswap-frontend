@@ -196,4 +196,18 @@ export const supportedPools = [
     tokenSymbol: 'ETH',
     icon: '🦖',
   },
+  
+   {
+    pid: 17,
+    lpAddresses: {
+      1: '0x843bd145ebeBE7192e80175e51FE8102501a1086',
+    },
+    tokenAddresses: {
+      1: '0x843bd145ebeBE7192e80175e51FE8102501a1086',
+    },
+    name: 'TacoLocked',
+    symbol: 'TLT',
+    tokenSymbol: 'TLT',
+    icon: '🔒',
+  },
 ]
